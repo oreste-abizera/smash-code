@@ -12,7 +12,10 @@ const Navbar = () => {
     { title: "About", path: "/about" },
   ];
   return (
-    <div className="fixed top-0 left-0 p-2 lg:p-4 w-full">
+    <div
+      className="fixed top-0 left-0 p-2 lg:p-4 w-full"
+      style={{ zIndex: 99999 }}
+    >
       <div className="w-full flex justify-between items-center bg-[#141414] border-[2px] border-[#1aaca2] rounded-[14px] p-2 px-4 lg:px-10">
         <img src={logo} alt="" className="w-[70px] lg:w-[90px]"></img>
 
