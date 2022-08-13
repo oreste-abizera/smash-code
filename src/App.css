@@ -17,3 +17,45 @@
 .parent:hover .hidden-child {
   opacity: 1;
 }
+
+.primary-btn {
+  outline: none;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 8px 25px;
+  color: #fff;
+  font-size: 1.4rem;
+  border: 1px solid #fff;
+  transition: 0.7s ease;
+  position: relative;
+}
+
+.primary-btn:hover {
+  color: #1aaca2;
+  border: 1px solid #1aaca2;
+}
+
+.primary-btn::before {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  content: "";
+  width: 52%;
+  height: 53%;
+  visibility: hidden;
+  border-radius: 50px;
+  background-color: transparent;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+.primary-btn::after {
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #1aaca2;
+}
