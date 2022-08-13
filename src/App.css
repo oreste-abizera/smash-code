@@ -8,3 +8,12 @@
   color: #1aaca2;
   font-size: 2rem;
 }
+
+.parent .hidden-child {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.parent:hover .hidden-child {
+  opacity: 1;
+}

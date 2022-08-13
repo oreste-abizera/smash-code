@@ -17,10 +17,7 @@ import {
   FaGoogle,
 } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
-// import { GiBlackBook } from "react-icons/gi";
-import { SiGmail } from "react-icons/si";
 import { BsPhone } from "react-icons/bs";
-// import TwitterIcon from "@material-ui/icons/Twitter";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/web/logopng.png";
 
