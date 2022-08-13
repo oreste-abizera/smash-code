@@ -1,0 +1,10 @@
+.cta-icons-top {
+  width: 10%;
+  min-height: 50px;
+  text-align: center;
+}
+
+.cta-icons-top > * {
+  color: #1aaca2;
+  font-size: 2rem;
+}
