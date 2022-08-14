@@ -1,24 +1,21 @@
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import HomeFeedback from "./components/HomeFeedback";
-import HomeProjects from "./components/HomeProjects";
-import HomeServices from "./components/HomeServices";
-import Navbar from "./components/Navbar";
+import AboutPage from "./pages/about";
+import BlogsPage from "./pages/blogs";
+import HomePage from "./pages/home";
+import ProjectsPage from "./pages/projects";
+import ServicesPage from "./pages/services";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-10">
-        <Hero />
-        <HomeProjects />
-        <HomeServices />
-        <HomeFeedback />
-      </main>
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/services" element={<ServicesPage />} />
+      <Route path="/blogs" element={<BlogsPage />} />
+      <Route path="/about" element={<AboutPage />} />
+    </Routes>
   );
 }
 
