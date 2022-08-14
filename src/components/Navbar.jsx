@@ -32,7 +32,7 @@ const Navbar = ({ active = 1 }) => {
                 <p
                   className={`${
                     link.active ? "text-[#1aaca2]" : "text-white"
-                  } text-xl hover:text-[#1aaca2]`}
+                  } text-xl hover:text-[#1aaca2] uppercase`}
                 >
                   {link.title}
                 </p>
