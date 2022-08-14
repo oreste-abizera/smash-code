@@ -86,11 +86,11 @@ const Footer = (props) => {
               {links.map((link, index) => {
                 return (
                   <div
-                    className="w-1/2 flex items-center gap-[0.5rem] cursor-pointer text-[#878787] text-[1em]"
+                    className="w-1/2 flex items-center gap-[0.5rem] cursor-pointer text-[#878787] hover:text-[#1aaca2] text-[1em]"
                     key={index}
                   >
                     {link.icon}
-                    <p className="text-[#878787] capitalize">{link.title}</p>
+                    <p className="capitalize">{link.title}</p>
                   </div>
                 );
               })}
