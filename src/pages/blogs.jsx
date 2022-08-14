@@ -2,6 +2,7 @@ import React from "react";
 import FeaturedBlogs from "../components/FeaturedBlogs";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import RecentBlogs from "../components/RecentBlogs";
 
 const BlogsPage = () => {
   const categories = [
@@ -33,6 +34,7 @@ const BlogsPage = () => {
             </button>
           ))}
         </div>
+        <RecentBlogs />
       </main>
       <Footer />
     </>
