@@ -4,13 +4,14 @@ const ProjectComponent = ({
   title,
   description,
   image,
+  video,
   gradient,
   url,
   top = false,
 }) => {
   return (
     <div
-      className="w-full lg:w-[48%] text-[#e0e0e0] hover:text-white min-h-[500px] rounded-[24px] p-[32px] overflow-hidden"
+      className="w-full lg:w-[48%] text-[#e0e0e0] hover:text-white min-h-[500px] rounded-[24px] p-[32px] overflow-hidden project-container"
       style={{
         background: gradient,
         marginTop: top ? "-8.5rem" : 0,
@@ -23,19 +24,23 @@ const ProjectComponent = ({
         </h1>
         <p className="text-[1.2rem] mb-[1rem]">{description}</p>
 
-        <div className="pt-[20px] lg:pt-[38px] w-full min-w-[196px] relative rounded-full flex items-center justify-center overflow-hidden transition-all">
-          <img
-            loading="lazy"
-            decoding="async"
-            alt="smash code"
-            src={image}
-            className="rounded-full w-full"
-            style={{
-              zIndex: -1,
-              boxShadow: "5px 5px 35px rgb(80 80 80 / 19%)",
-            }}
-          ></img>
-        </div>
+        {image && (
+          <div className="pt-[20px] lg:pt-[38px] w-full min-w-[196px] relative rounded-full flex items-center justify-center overflow-hidden transition-all img-container">
+            <img
+              loading="lazy"
+              decoding="async"
+              alt="smash code"
+              src={image}
+              className="rounded-full w-full"
+              style={{
+                boxShadow: "5px 5px 35px rgb(80 80 80 / 19%)",
+              }}
+            ></img>
+          </div>
+        )}
+        {video && (
+          <video src={video} className="w-full min-w-[196px]" controls></video>
+        )}
       </div>
 
       <div class="my-[5px] mx-auto">

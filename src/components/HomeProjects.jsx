@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import ProjectComponent from "./ProjectComponent";
 import Title from "./Title";
 
 const HomeProjects = () => {
+  const navigate = useNavigate();
   const projects = [
     {
       title: "Docterio",
@@ -66,7 +68,12 @@ const HomeProjects = () => {
       </div>
 
       <div className="flex items-center justify-center mt-[8rem]">
-        <button className="primary-btn mt-[8rem]">View More</button>
+        <button
+          className="primary-btn mt-[8rem]"
+          onClick={() => navigate("/projects")}
+        >
+          View More
+        </button>
       </div>
     </div>
   );

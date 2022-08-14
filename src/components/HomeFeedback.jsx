@@ -12,7 +12,9 @@ const HomeFeedback = () => {
           <p className="text-[1.7rem] text-[#1aaca2] leading-[5rem] flex justify-start mb-[1rem]">
             <span className="flex w-[50px] h-[50px] bg-[#f3f3f3] border-[2px] border-[#a0a0a0] rounded-full items-center justify-center overflow-hidden mr-[15px]">
               <img
-                src={client1}
+                src={
+                  "https://fiverr-res.cloudinary.com/image/upload/f_auto,q_auto,t_profile_small/v1/attachments/profile/photo/7a076cd6d5302d76a0d29771ee8d5b97-1581266436493/06cc1535-0d5a-4fad-bda5-e957a63713be.jpg"
+                }
                 alt="Hyperdad"
                 className="w-full object-cover text-center"
               ></img>

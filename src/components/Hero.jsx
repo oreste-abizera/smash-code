@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-wrap py-[8rem]">
       <div className="w-full lg:w-2/3">
@@ -14,7 +16,9 @@ const Hero = () => {
           We create future-ready websites &amp; web apps via innovative digital
           solutions so that you can focus on your core business.
         </p>
-        <button className="primary-btn">Let's talk</button>
+        <button className="primary-btn" onClick={() => navigate("/contact")}>
+          Let's talk
+        </button>
       </div>
       <div className="w-full lg:w-1/3"></div>
     </div>

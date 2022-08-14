@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import ServiceComponent from "./ServiceComponent";
 import Title from "./Title";
 
 const HomeServices = () => {
+  const navigate = useNavigate();
   const services = [
     {
       title: "Custom Web Development",
@@ -98,7 +100,12 @@ const HomeServices = () => {
       </div>
 
       <div className="flex items-center justify-center">
-        <button className="primary-btn mt-[8rem]">View More</button>
+        <button
+          className="primary-btn mt-[8rem]"
+          onClick={() => navigate("/services")}
+        >
+          View More
+        </button>
       </div>
     </div>
   );

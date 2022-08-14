@@ -18,17 +18,18 @@ import {
 } from "react-icons/fa";
 import { BsEnvelope } from "react-icons/bs";
 import { BsPhone } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/images/web/logopng.png";
 
 const Footer = (props) => {
+  const navigate = useNavigate();
   const links = [
     { title: "Home", path: "/", icon: <FaHome /> },
     { title: "About", path: "/about", icon: <FaUser /> },
     { title: "Contact", path: "/contact", icon: <FaPhone /> },
     { title: "Services", path: "/services", icon: <FaServicestack /> },
     { title: "Projects", path: "/projects", icon: <FaProjectDiagram /> },
-    { title: "Blogs", path: "/blog", icon: <FaBook /> },
+    { title: "Blogs", path: "/blogs", icon: <FaBook /> },
   ];
   return (
     <footer className="w-full">
@@ -88,6 +89,7 @@ const Footer = (props) => {
                   <div
                     className="w-1/2 flex items-center gap-[0.5rem] cursor-pointer text-[#878787] hover:text-[#1aaca2] text-[1em]"
                     key={index}
+                    onClick={() => navigate(link.path)}
                   >
                     {link.icon}
                     <p className="capitalize">{link.title}</p>
