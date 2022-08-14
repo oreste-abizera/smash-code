@@ -109,7 +109,7 @@ const RecentBlogs = () => {
                 ></img>
               </div>
 
-              <div className="min-h-[170px] pt-[15px] px-[12px] pb-[6px]">
+              <div className="min-h-[170px] pt-[15px] px-[12px] pb-[6px] cursor-pointer">
                 <h1 className="text-white text-[18px] lg:text-[22px] font-bold line-clamp-2">
                   {blog.title}
                 </h1>
