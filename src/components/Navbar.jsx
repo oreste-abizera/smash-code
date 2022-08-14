@@ -9,7 +9,7 @@ const Navbar = ({ active = 1 }) => {
     { title: "Home", path: "/", active: active === 1 },
     { title: "Projects", path: "/projects", active: active === 2 },
     { title: "Services", path: "/services", active: active === 3 },
-    { title: "Blogs", path: "/blog", active: active === 4 },
+    { title: "Blogs", path: "/blogs", active: active === 4 },
     { title: "About", path: "/about", active: active === 5 },
   ];
   return (
