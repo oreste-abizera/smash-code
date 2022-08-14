@@ -27,6 +27,7 @@ const HomeProjects = () => {
         "This is a logo for a Software company, created in illustrator.",
       gradient: "linear-gradient(180deg,#1aaca2,#121212)",
       url: "https://smashcode.dev/projects",
+      image: "https://smashcode.dev/static/media/graphProj.f2e62b97.png",
     },
     {
       title:
@@ -64,7 +65,7 @@ const HomeProjects = () => {
         })}
       </div>
 
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mt-[8rem]">
         <button className="primary-btn mt-[8rem]">View More</button>
       </div>
     </div>

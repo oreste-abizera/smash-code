@@ -3,13 +3,13 @@ import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/web/logopng.png";
 
-const Navbar = () => {
+const Navbar = ({ active = 1 }) => {
   const links = [
-    { title: "Home", path: "/", active: true },
-    { title: "Projects", path: "/projects" },
-    { title: "Services", path: "/services" },
-    { title: "Blogs", path: "/blog" },
-    { title: "About", path: "/about" },
+    { title: "Home", path: "/", active: active === 1 },
+    { title: "Projects", path: "/projects", active: active === 2 },
+    { title: "Services", path: "/services", active: active === 3 },
+    { title: "Blogs", path: "/blog", active: active === 4 },
+    { title: "About", path: "/about", active: active === 5 },
   ];
   return (
     <div

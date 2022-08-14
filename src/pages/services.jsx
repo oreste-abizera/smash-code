@@ -183,7 +183,7 @@ const ServicesPage = () => {
   ];
   return (
     <>
-      <Navbar />
+      <Navbar active={3} />
       <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
         <Title title="Services we" subtitle="Offered" />
         <p className="text-white text-[1.2rem] mb-[1rem] max-w-[622px] py-[1rem]">
