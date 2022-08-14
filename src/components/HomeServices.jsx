@@ -12,7 +12,7 @@ const HomeServices = () => {
         "We focus on creating unique full-stack Web Apps & Responsive Websites via HTML, CSS, JS, ReactJs, and Firebase. We use next-generation programming languages and app-development platforms on the Google Cloud Platform.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -27,7 +27,7 @@ const HomeServices = () => {
         "We do frontend of NFT & blockchain websites and apps and do smart contract integration using web3.js, Alchemy, Moralis, and other 3rd party libraries or tokens like ERC-20, ERC-720, and ERC-1155. In addition, we do wallet integration. These wallets include Metamask, Polygon, Coinbase, etc",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -42,7 +42,7 @@ const HomeServices = () => {
         "We work hard to provide you professional business logo designs, poster designs, CV designs, and photo editing. We have skilled graphic designers who use prominent photo editing and manipulation software such as Adobe Photoshop, Illustrator, and Canva.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -57,7 +57,7 @@ const HomeServices = () => {
         "Our skilled content & copywriter produces quality content on Medium. Also, He helps businesses to build a prominent online presence by creating high-conversion web pages, sales copies, and blogs and articles. He has produced plenty of attention-grabbing content for different niches such as Businesses, SEO, Information Technology, Programming Languages, Civic Tech, Self-Improvement, Health, etc.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"

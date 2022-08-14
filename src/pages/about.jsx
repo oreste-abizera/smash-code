@@ -27,7 +27,13 @@ const AboutPage = () => {
               Ask a Question
             </button>
           </div>
-          <div className="w-full lg:w-1/2"></div>
+          <div className="w-full lg:w-1/2 flex items-center justify-center">
+            <img
+              src="https://smashcode.dev/static/media/unique.4217a688.png"
+              alt=""
+              className="w-3/4 rotate-animation"
+            ></img>
+          </div>
         </div>
 
         <div className="w-full flex flex-col lg:flex-row border-l-[2px] border-dashed border-l-[#1aaca2] pl-[2rem] my-[4rem]">

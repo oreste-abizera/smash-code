@@ -21,7 +21,7 @@ const HomeFeedback = () => {
             </span>
             Hyperdad
           </p>
-          <blockquote class="blockquote text-white max-w-[492px] text-[1.25rem] mb-[1rem]">
+          <blockquote className="blockquote text-white max-w-[492px] text-[1.25rem] mb-[1rem]">
             <p className="mb-0 text-[1.7rem]">
               “SupermAn , my super hero , outstanding , elegant , very fast ,
               very patient , what could I possibly desire if I have Ismail we

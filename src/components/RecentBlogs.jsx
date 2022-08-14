@@ -147,7 +147,7 @@ const RecentBlogs = () => {
                     fill="currentColor"
                     stroke-width="0"
                     viewBox="0 0 576 512"
-                    class="views-icon"
+                    className="views-icon"
                     height="1em"
                     width="1em"
                     xmlns="http://www.w3.org/2000/svg"

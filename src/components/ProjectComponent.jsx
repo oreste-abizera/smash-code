@@ -43,9 +43,9 @@ const ProjectComponent = ({
         )}
       </div>
 
-      <div class="my-[5px] mx-auto">
+      <div className="my-[5px] mx-auto">
         <a
-          class="font-bold text-[1.2rem] rounded-[50px] flex items-center justify-center text-center py-[6px] px-[16px] text-[#1aaca2]"
+          className="font-bold text-[1.2rem] rounded-[50px] flex items-center justify-center text-center py-[6px] px-[16px] text-[#1aaca2]"
           href={url}
           target="_blank"
         >

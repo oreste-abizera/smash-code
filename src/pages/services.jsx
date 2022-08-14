@@ -12,7 +12,7 @@ const ServicesPage = () => {
         "We focus on creating a modern, flexible, secure, cross-platform, and user-friendly web app so that it can meet spikes in demand and handle complex scenarios",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -27,7 +27,7 @@ const ServicesPage = () => {
         "We do smart Contract integration in which includes functionalities minting, whitelist, get data from Blockchain and update on it, buy tokens and etc",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -46,7 +46,7 @@ const ServicesPage = () => {
         "We do wallet integration in Blockchain. These wallets include Metamask, Coinbase, Trust, Sollana, etc. We also connect these wallets with the front end",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -61,7 +61,7 @@ const ServicesPage = () => {
         "We pay special attention to create attention-grabbing landing pages that convince your users to take the required action. We use a combination of eye-catching backgrounds and images to make each section stand out.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -76,7 +76,7 @@ const ServicesPage = () => {
         "We design unique NFT landing pages with awesome animations and themes. These landing pages have 5 to 7 sections that include, engaging content, Art slider, Roadmap, Team, Faq, etc.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -95,7 +95,7 @@ const ServicesPage = () => {
         "We create responsive websites via CSS and JavaScript plugins. Our design has a flexible layout and images that work on various devices: mobile, desktop, tablet, etc. We create websites that efficiently deal with different media queries, screen sizes, resolutions, color capabilities, and resolutions.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -110,7 +110,7 @@ const ServicesPage = () => {
         "We develop full-stack Web Apps for both the front-end and back-end project directories. Apart from using HTML and CSS, we also use JavaScript, ReactJs, and Firebase to create full-stack web apps.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -125,7 +125,7 @@ const ServicesPage = () => {
         "We create engaging web pages, landing pages, and sales copies to increase brand awareness that persuades users to take the required action.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -140,7 +140,7 @@ const ServicesPage = () => {
         "When writing blogs, we focus on creating appealing graphics, magnetic headlines & subheadings, powerful calls to action, relevant internal links, and concise Meta descriptions so that our content engages readers to take the required action.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -155,7 +155,7 @@ const ServicesPage = () => {
         "We create professional, distinctive, and simple in form business logo design so that it conveys your intended message to your potential customers.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
@@ -171,7 +171,7 @@ const ServicesPage = () => {
         "Our skilled graphic designer aims to take a quality shot, choose relevant filters, adjust the Lux setting and create professional and eye-catching photos.",
       icon: (
         <svg
-          class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
+          className="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge"
           focusable="false"
           viewBox="0 0 24 24"
           aria-hidden="true"
