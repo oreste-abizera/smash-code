@@ -123,13 +123,29 @@
   cursor: pointer;
 }
 
+.floating-chat-icon {
+  animation: floating2 1s linear infinite alternate;
+  cursor: pointer;
+}
+
 @keyframes floating1 {
-  /* from {
+  from {
     width: 50px;
     height: 50px;
   }
   to {
     width: 0;
     height: 0;
-  } */
+  }
+}
+
+@keyframes floating2 {
+  from {
+    width: 30px;
+    height: 30px;
+  }
+  to {
+    width: 0;
+    height: 0;
+  }
 }

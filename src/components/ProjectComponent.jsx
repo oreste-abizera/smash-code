@@ -11,11 +11,12 @@ const ProjectComponent = ({
 }) => {
   return (
     <div
-      className="w-full lg:w-[48%] text-[#e0e0e0] hover:text-white min-h-[500px] rounded-[24px] p-[32px] overflow-hidden project-container"
+      className={
+        (top ? "lg:-mt-[8.5rem] lg:mb-0" : "lg:mt-0 lg:-mb-[8.5rem]") +
+        " w-full lg:w-[48%] text-[#e0e0e0] hover:text-white min-h-[500px] rounded-[24px] p-[32px] overflow-hidden project-container"
+      }
       style={{
         background: gradient,
-        marginTop: top ? "-8.5rem" : 0,
-        marginBottom: top ? 0 : "-8.5rem",
       }}
     >
       <div className="pb-[30px]">

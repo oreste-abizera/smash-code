@@ -1,17 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 const FloatingChat = () => {
+  const [hovered, sethovered] = useState(false);
+
   return (
     <div
-      className="floating-chat text-[25px] fixed bottom-[25px] right-[20px] w-[35px] h-[35px] md:w-[50px] md:h-[50px] text-white rounded-full flex items-center justify-center bg-[#25d366] "
+      className={
+        (!hovered ? "floating-chat" : "") +
+        " text-[25px] fixed bottom-[25px] right-[20px] w-[35px] h-[35px] md:w-[50px] md:h-[50px] text-white rounded-full flex items-center justify-center bg-[#25d366] cursor-pointer transition-all"
+      }
       style={{
         zIndex: 9999,
         overflow: "hidden",
         boxShadow: "5px 5px 15px rgb(0 0 0 / 25%)",
       }}
+      onMouseEnter={() => sethovered(true)}
+      onMouseLeave={() => sethovered(false)}
     >
       <svg
-        className="MuiSvgIcon-root"
+        className={
+          (!hovered ? "floating-chat-icon" : "") +
+          " MuiSvgIcon-root transition-all"
+        }
         focusable="false"
         viewBox="0 0 24 24"
         aria-hidden="true"

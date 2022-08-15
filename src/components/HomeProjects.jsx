@@ -10,7 +10,7 @@ const HomeProjects = () => {
       title: "Docterio",
       description:
         "This is a web app, developed in ReactJs by using Bootstrap framework. This web app is a complete remote hospital and it is compatible to use in mobile, tablets and in desktop.",
-      image: "https://smashcode.dev/static/media/webProj.10d46a28.jpeg",
+      image: "https://smashcode.dev/static/media/graphProj.8729c74a.png",
       gradient: "linear-gradient(180deg,#255FBC,#121212)",
       url: "https://docterio.netlify.app/",
     },
@@ -29,14 +29,15 @@ const HomeProjects = () => {
         "This is a logo for a Software company, created in illustrator.",
       gradient: "linear-gradient(180deg,#1aaca2,#121212)",
       url: "https://smashcode.dev/projects",
-      image: "https://smashcode.dev/static/media/graphProj.f2e62b97.png",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",
     },
     {
       title:
-        "Ego: Your Biggest Enemy That holds you back From becoming successful",
+        "My Journey from Zero-Knowledge of Computers to Owning a Software House",
       description:
-        "In this blog, the writer elaborates how ego is preventing us from living our dream life? How can we get rid of ego to get financially independent? How ego comes in different guises?",
-      image: "https://smashcode.dev/static/media/contentWriting.4d46e7f8.jpeg",
+        "This blog focuses on the success story of Muhammad Ismail. The writer has explored the journey of a young web developer and the owner of a software company who was once struggling to survive and ready to quit.",
+      image: "https://smashcode.dev/static/media/contentWriting.310b81db.jpg",
       gradient: "linear-gradient(180deg,#7E478B,#121212)",
       url: "https://medium.com/illumination/ego-your-biggest-enemy-that-holds-you-back-from-becoming-successful-b98c87222530",
     },
