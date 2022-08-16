@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .cta-icons-top {
   width: 10%;
   min-height: 50px;
@@ -147,5 +153,81 @@
   to {
     width: 0;
     height: 0;
+  }
+}
+
+.contact-btn {
+  min-width: 100px;
+  min-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 15px rgb(79 209 196 / 45%);
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+  color: #1aacbe;
+  border: 1px solid #1aacbe;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+.contact-btn:before {
+  content: "";
+  border-radius: 50px;
+  min-width: 108px;
+  min-height: 38px;
+  border: 6px solid #00ffcb;
+  box-shadow: 0 0 15px rgb(0 255 204 / 55%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: 99999;
+}
+
+.contact-btn:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00ffcb;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: ring 1.5s infinite;
+  animation: ring 1.5s infinite;
+  z-index: 99999;
+}
+
+.contact-btn:hover::after {
+  width: 0;
+  height: 0;
+  border: none;
+  animation: none;
+}
+.contact-btn:hover::before {
+  opacity: 1;
+}
+.contact-btn:hover {
+  transform: translateY(-5px);
+  border: none;
+  box-shadow: none;
+}
+
+@keyframes ring {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(4);
+    border: 1px solid #00ffcb;
   }
 }
