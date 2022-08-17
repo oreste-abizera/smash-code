@@ -259,3 +259,13 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.team-member::after,
+.team-member::before {
+  z-index: -1;
+}
+
+.team-member {
+  background-color: rgb(32 32 32);
+  z-index: 20;
+}

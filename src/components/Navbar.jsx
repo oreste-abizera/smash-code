@@ -117,7 +117,7 @@ const Navbar = ({ active = 1 }) => {
           </div>
           <div>
             <button
-              class="hidden lg:flex contact-btn"
+              className="hidden lg:flex contact-btn"
               onClick={() => navigate("/contact")}
             >
               Contact
