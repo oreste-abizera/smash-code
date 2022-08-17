@@ -93,7 +93,7 @@ const ProjectsPage = () => {
           </button>
         </div>
 
-        <div className="flex items-center justify-center text-white">
+        <div className="hidden lg:flex items-center justify-center text-white">
           <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2] rounded-l-[8px]">
             Landing Page
           </button>
@@ -106,6 +106,42 @@ const ProjectsPage = () => {
           <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
             Fullstack
           </button>
+        </div>
+
+        <div className="w-full lg:hidden relative text-white pt-[2rem]">
+          <div className="absolute h-full w-[3px] bg-[#1aaca2] left-0 right-0 mx-auto"></div>
+          <div
+            className="w-[51%] flex items-center justify-between py-[0.2rem] pt-[2.5rem]"
+            style={{ marginRight: "100px" }}
+          >
+            <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2] rounded-l-[8px]">
+              Landing Page
+            </button>
+            <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+          </div>
+
+          <div className="flex justify-end">
+            <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
+              <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+              <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
+                Frontend
+              </button>
+            </div>
+          </div>
+          <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
+            <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-l-[8px]">
+              Functionality
+            </button>
+            <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+          </div>
+          <div className="flex justify-end">
+            <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
+              <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+              <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
+                Fullstack
+              </button>
+            </div>
+          </div>
         </div>
 
         <div className="flex flex-wrap gap-x-[4%] gap-y-[13rem] my-[12rem]">
