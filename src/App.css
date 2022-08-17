@@ -298,3 +298,19 @@ body {
     margin-left: 0;
   }
 }
+
+.hero-image {
+  animation: animateImage 2s linear;
+}
+
+@keyframes animateImage {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

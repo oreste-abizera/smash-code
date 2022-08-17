@@ -43,8 +43,9 @@ const Hero = () => {
         <img
           src={images[currentImage]}
           alt=""
-          className="w-full"
+          className="w-full hero-image"
           onClick={nextImage}
+          key={images[currentImage]}
         ></img>
       </div>
     </div>
