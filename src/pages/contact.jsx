@@ -8,7 +8,7 @@ import emailsvg from "../assets/svg/email.svg";
 const ContactPage = () => {
   return (
     <>
-      <Navbar active={9} />
+      <Navbar active={6} />
       <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[12rem] pb-[8rem] text-white">
         <h1
           className="text-white text-center mb-[1.5rem] font-medium leading-[1.2]"

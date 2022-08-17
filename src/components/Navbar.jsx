@@ -12,6 +12,7 @@ const Navbar = ({ active = 1 }) => {
     { title: "Services", path: "/services", active: active === 3 },
     { title: "Blogs", path: "/blogs", active: active === 4 },
     { title: "About", path: "/about", active: active === 5 },
+    { title: "Contact", path: "/contact", active: active === 6, mobile: true },
   ];
 
   const [navShown, setnavShown] = useState(false);
@@ -55,7 +56,7 @@ const Navbar = ({ active = 1 }) => {
               {links.map((link, index) => {
                 return (
                   <li
-                    className="w-full "
+                    className={"w-full "}
                     key={index}
                     style={{
                       borderBottom:
@@ -93,24 +94,26 @@ const Navbar = ({ active = 1 }) => {
           ></img>
 
           <div className="hidden lg:flex gap-[2rem]">
-            {links.map((link) => (
-              <Link key={link.title} to={link.path}>
-                <div className="parent">
-                  <p
-                    className={`${
-                      link.active ? "text-[#1aaca2]" : "text-white"
-                    } text-xl hover:text-[#1aaca2] uppercase`}
-                  >
-                    {link.title}
-                  </p>
-                  <div
-                    className={`${
-                      link.active ? "" : "hidden-child"
-                    } bg-[#1aaca2] h-[1px] w-[20px] mt-[10px] mx-auto`}
-                  ></div>
-                </div>
-              </Link>
-            ))}
+            {links
+              .filter((link) => !link.mobile)
+              .map((link) => (
+                <Link key={link.title} to={link.path}>
+                  <div className="parent">
+                    <p
+                      className={`${
+                        link.active ? "text-[#1aaca2]" : "text-white"
+                      } text-xl hover:text-[#1aaca2] uppercase`}
+                    >
+                      {link.title}
+                    </p>
+                    <div
+                      className={`${
+                        link.active ? "" : "hidden-child"
+                      } bg-[#1aaca2] h-[1px] w-[20px] mt-[10px] mx-auto`}
+                    ></div>
+                  </div>
+                </Link>
+              ))}
           </div>
           <div>
             <button
