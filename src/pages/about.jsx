@@ -73,6 +73,37 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
+        <div className="w-full flex flex-col lg:flex-row border-r-[2px] border-dashed border-r-[#1aaca2] pr-[2rem] my-[4rem]">
+          <Title title={"Meet our"} subtitle="Team"></Title>
+          <div className="w-full flex justify-center flex-wrap text-white mt-[10rem]">
+            <div className="w-[33.333333]">
+              <div className="team-member w-[200px] h-[200px] rounded-full border-[3px] border-[#1aaca2] relative flex items-center justify-center my-0 mx-auto mt-[3rem]">
+                <div className="w-full h-full p-[15px] rounded-full flex flex-col items-center justify-center overflow-hidden text-center before:absolute before:content-[''] before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:border-[3px] before:border-[#17cae2]">
+                  <h2 className="text-[1.4rem] pt-[20px] font-medium mb-[0.5rem]">
+                    Muhammad Ismail
+                  </h2>
+                  <p className="font-semibold text-[0.9rem] text-[#1aaca2]">
+                    CEO &amp; Founder
+                  </p>
+                </div>
+                <div
+                  className="absolute top-0 left-0 w-full h-full overflow-hidden p-[3px]"
+                  style={{
+                    transition: "all 0.3s linear",
+                    zIndex: 111,
+                    backgroundColor: "rgb(32 32 32)",
+                  }}
+                >
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/Team-members-images%2F209397729_1201098033685868_1434788942201818518_n.jpg%20ugPadwvN?alt=media&amp;token=5d0b72ce-b59f-4116-a60b-c48b30cb8571"
+                    alt="Muhammad Ismail"
+                    className="w-full h-full rounded-full"
+                  ></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="w-full flex flex-col lg:flex-row border-l-[2px] border-dashed border-l-[#1aaca2] pl-[2rem]">
           <div className="w-full lg:w-1/2">

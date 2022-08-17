@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .cta-icons-top {
   width: 10%;
   min-height: 50px;
@@ -229,5 +233,29 @@
   100% {
     transform: translate(-50%, -50%) scale(4);
     border: 1px solid #00ffcb;
+  }
+}
+
+.team-member > div {
+  transition: all 3s;
+}
+
+.team-member:hover > div:first-child::before {
+  content: "=====";
+  transform-origin: center;
+  border-color: #136e68;
+  animation: animate 1s ease-in-out infinite;
+}
+
+.team-member:hover > div:nth-child(2) {
+  top: -85%;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
