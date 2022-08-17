@@ -269,3 +269,32 @@ body {
   background-color: rgb(32 32 32);
   z-index: 20;
 }
+
+.flying-avatars > div {
+  animation: flyingAvatar 4s linear infinite;
+  animation-duration: 8s !important;
+}
+
+@keyframes flyingAvatar {
+  /* move a div in a circle animation using margin */
+  0% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  25% {
+    margin-top: 50px;
+    margin-left: 5px;
+  }
+  50% {
+    margin-top: 45px;
+    margin-left: 50px;
+  }
+  75% {
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
