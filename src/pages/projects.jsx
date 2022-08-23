@@ -5,6 +5,8 @@ import ProjectComponent from "../components/ProjectComponent";
 import Title from "../components/Title";
 
 const ProjectsPage = () => {
+  const [activeCategory, setActiveCategory] = React.useState(1);
+  const [activeSubCategory, setActiveSubCategory] = React.useState(1);
   const projects = [
     {
       title: "Kitab",
@@ -62,6 +64,21 @@ const ProjectsPage = () => {
       gradient: "linear-gradient(180deg,#FFA5A1,#121212)",
     },
   ];
+
+  const categories = [
+    "Web Development",
+    "Graphic Design",
+    "Content Writing",
+    "Blockchain",
+  ];
+  const subCategories =
+    activeCategory === 1
+      ? ["Landing Page", "Frontend", "Functionality", "Fullstack"]
+      : activeCategory === 2
+      ? ["CV Design", "Photo Editing", "Logo Design"]
+      : activeCategory === 3
+      ? ["Copy Writing", "Blockchain", "Content Writing"]
+      : ["NFT Landing Page", "NFT Minting"];
   return (
     <>
       <Navbar active={2} />
@@ -79,69 +96,78 @@ const ProjectsPage = () => {
           All Projects
         </h1>
         <div className="flex justify-center items-center flex-wrap py-[12px] px-[5px]">
-          <button className="rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white bg-[#1aaca2]">
-            Web Development
-          </button>
-          <button className="bg-transparent border-[1px] border-[#1aaca2] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#1aaca2] transition-all">
-            Graphic Design
-          </button>
-          <button className="bg-transparent border-[1px] border-[#1aaca2] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#1aaca2] transition-all">
-            Content Writing
-          </button>
-          <button className="bg-transparent border-[1px] border-[#1aaca2] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#1aaca2] transition-all">
-            Blockchain
-          </button>
+          {categories.map((category, index) => (
+            <button
+              key={index}
+              onClick={() => setActiveCategory(index + 1)}
+              className={
+                activeCategory === index + 1
+                  ? "rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white bg-[#1aaca2]"
+                  : "bg-transparent border-[1px] border-[#1aaca2] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#1aaca2] transition-all"
+              }
+            >
+              {category}
+            </button>
+          ))}
         </div>
 
         <div className="hidden lg:flex items-center justify-center text-white">
-          <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2] rounded-l-[8px]">
-            Landing Page
-          </button>
-          <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]">
-            Frontend
-          </button>
-          <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]">
-            Functionality
-          </button>
-          <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
-            Fullstack
-          </button>
+          {subCategories.map((subCategory, index) => (
+            <button
+              onClick={() => setActiveSubCategory(index + 1)}
+              className={
+                (index === 0 ? "rounded-l-[8px] " : "") +
+                (activeSubCategory === index + 1
+                  ? "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2]"
+                  : "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+              }
+              key={index}
+            >
+              {subCategory}
+            </button>
+          ))}
         </div>
 
         <div className="w-full lg:hidden relative text-white pt-[2rem]">
           <div className="absolute h-full w-[3px] bg-[#1aaca2] left-0 right-0 mx-auto"></div>
-          <div
-            className="w-[51%] flex items-center justify-between py-[0.2rem] pt-[2.5rem]"
-            style={{ marginRight: "100px" }}
-          >
-            <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2] rounded-l-[8px]">
-              Landing Page
-            </button>
-            <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
-          </div>
-
-          <div className="flex justify-end">
-            <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
-              <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
-              <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
-                Frontend
-              </button>
-            </div>
-          </div>
-          <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
-            <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-l-[8px]">
-              Functionality
-            </button>
-            <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
-          </div>
-          <div className="flex justify-end">
-            <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
-              <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
-              <button className="py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2] rounded-r-[8px]">
-                Fullstack
-              </button>
-            </div>
-          </div>
+          {subCategories.map((subCategory, index) =>
+            index % 2 === 0 ? (
+              <div
+                className="w-[51%] flex items-center justify-between py-[0.2rem] pt-[2.5rem]"
+                style={{ marginRight: "100px" }}
+              >
+                <button
+                  className={
+                    "py-[5px] px-[8px] my-[8px] mx-[1px] outline- rounded-l-[8px] " +
+                    (activeSubCategory === index + 1
+                      ? "text-white bg-[#1aaca2]"
+                      : "bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+                  }
+                  onClick={() => setActiveSubCategory(index + 1)}
+                >
+                  {subCategory}
+                </button>
+                <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+              </div>
+            ) : (
+              <div className="flex justify-end">
+                <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
+                  <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+                  <button
+                    className={
+                      "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none rounded-r-[8px] " +
+                      (activeSubCategory === index + 1
+                        ? "text-white bg-[#1aaca2]"
+                        : "bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+                    }
+                    onClick={() => setActiveSubCategory(index + 1)}
+                  >
+                    {subCategory}
+                  </button>
+                </div>
+              </div>
+            )
+          )}
         </div>
 
         <div className="flex flex-wrap gap-x-[4%] gap-y-[13rem] my-[12rem]">
