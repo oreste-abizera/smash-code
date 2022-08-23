@@ -1,0 +1,241 @@
+[
+  {
+    "title": "Kitab",
+    "description": "This website is developed in HTML, CSS, and JavaScript. This landing page design is created for purchasing E-Books. It can be used on both Android and iOS. Readers can conveniently read e-books on their mobiles, tablets, and desktops because of adjustable screens according to their devices.",
+    "video": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fvideos%2FKitab.m4v?alt=media&token=fc5df2ac-983d-4f40-8c91-a0de190e5f20",
+    "isVideo": true,
+    "gradient": "linear-gradient(180deg,#255FBC,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/kitab/",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "title": "Rhenyz",
+    "description": "This landing page was created for a company called Rhenyz. This web app was developed in HTML, CSS, and JavaScript. It contains beautiful animations with a hovering effect. It is compatible with mobile, tablets, and desktops.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F18-min.jpg?alt=media&token=1a2abd98-d44e-4c28-ae49-e26644e1255c",
+    "gradient": "linear-gradient(180deg,#50B2BE,#121212)",
+    "url": "https://smashcode-rhenyx.netlify.app/",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "title": "S2 Market",
+    "description": "This is a Landing page of a business website containing cool animations with smooth scrolling. It is created in Html, CSS and JavaScript.",
+    "gradient": "linear-gradient(180deg,#7E478B,#121212)",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fs2-market.jpg?alt=media&token=5d2d5514-8c46-4a7d-9474-0d992994b6c7",
+    "url": "https://smashcode-s2market.netlify.app/",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "title": "2584 Design",
+    "description": "This website developed in HTML, CSS, and JavaScript. This landing page created for a company called 2584 Designs. It works on both Android and iOS. Users can conveniently use the program on mobile, tablets, and desktops.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "url": "https://smashcode-2584.netlify.app/",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "title": "Sebrapage",
+    "description": "This landing page developed in HTML, CSS, and JavaScript with beautiful animations and hovering effects. It works on both Android and iOS. Users can conveniently use the program on mobiles, tablets, and desktops.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fweb%20(38).jpg?alt=media&token=abefe10a-f3db-4977-bab5-5e2d87dadf31",
+    "url": "https://smashcode-sebrapage.netlify.app/",
+    "gradient": "linear-gradient(180deg,#FFCA28,#121212)",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "title": "EBookLP",
+    "description": "This website is developed in HTML, CSS, and JavaScript. The design of the landing page is created for E-Books with white paper. It can be used on both Android and iOS. Readers can conveniently read e-books on their mobiles, tablets, and desktops because of adjustable screens according to their devices.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fweb%20(3).jpg?alt=media&token=f688330f-924a-400b-b502-c3cc859901b3",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "category": 1,
+    "subCategory": 1
+  },
+  {
+    "category": 1,
+    "subCategory": 2,
+    "title": "Algostation",
+    "description": "Algostation is a fully dynamic web application. It is developed in React.js and Google Firebase and has cool animations.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fweb-(45).jpg?alt=media&token=06a2ff68-a69f-443b-8a42-529053ee0449",
+    "url": "https://algostation.netlify.app/",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)"
+  },
+  {
+    "title": "EBookLP",
+    "description": "This website is developed in HTML, CSS, and JavaScript. The design of the landing page is created for E-Books with white paper. It can be used on both Android and iOS. Readers can conveniently read e-books on their mobiles, tablets, and desktops because of adjustable screens according to their devices.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fweb%20(3).jpg?alt=media&token=f688330f-924a-400b-b502-c3cc859901b3",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "category": 1,
+    "subCategory": 2
+  },
+  {
+    "title": "S2 Market",
+    "description": "This is a Landing page of a business website containing cool animations with smooth scrolling. It is created in Html, CSS and JavaScript.",
+    "gradient": "linear-gradient(180deg,#7E478B,#121212)",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fs2-market.jpg?alt=media&token=5d2d5514-8c46-4a7d-9474-0d992994b6c7",
+    "url": "https://smashcode-s2market.netlify.app/",
+    "category": 1,
+    "subCategory": 3
+  },
+  {
+    "title": "2584 Design",
+    "description": "This website developed in HTML, CSS, and JavaScript. This landing page created for a company called 2584 Designs. It works on both Android and iOS. Users can conveniently use the program on mobile, tablets, and desktops.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "url": "https://smashcode-2584.netlify.app/",
+    "category": 1,
+    "subCategory": 3
+  },
+  {
+    "title": "Singular Trader Academy",
+    "description": "Singular Trader Academy was built in ReactJs and Google Firebase. It is an online course web app. There is an Admin panel where the admin can upload his course videos according to chapters. Users can signup and pay a minimum fee for the course subscription.",
+    "gradient": "linear-gradient(180deg,#7E478B,#121212)",
+    "video": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fvideos%2FSingular%20Trader%20Academy.mp4?alt=media&token=d9898da4-496d-48d5-b2d8-881af9d5e878",
+    "url": "https://smashcode-s2market.netlify.app/",
+    "category": 1,
+    "subCategory": 4
+  },
+  {
+    "title": "Feedback Form/Review Form",
+    "description": "This is a user feedback form with multi steps. It is connected with backend in Google firebase.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "url": "https://smashcode-2584.netlify.app/",
+    "category": 1,
+    "subCategory": 4
+  },
+  {
+    "title": "Unique Curriculum Vitae",
+    "description": "This is a Curriculum Vitae designed in a unique and professional way. It is designed in illustrator.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fboycv.png?alt=media&token=1826caed-01cc-48cb-a686-201f995f2686",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 1
+  },
+  {
+    "title": "Unique Curriculum Vitae for girls",
+    "description": "This is a Curriculum Vitae designed specially for girls and it is designed in illustrator.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fgirlcv.png?alt=media&token=152692c1-880a-4aa5-9786-118008ddfcde",
+    "gradient": "linear-gradient(180deg,#FFF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 1
+  },
+  {
+    "title": "Background Change",
+    "description": "In this project, we have changed the whole background of the picture by using a beautiful structure. We created the image in Photoshop.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fbackchange.png?alt=media&token=46359ac6-b5f2-4a4b-bc37-1d8b9be9f5ab",
+    "gradient": "linear-gradient(180deg,#FFA5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 2
+  },
+  {
+    "title": "Dramatic Lightening",
+    "description": "In this project, we have added a dramatic lightening effect to the image using Photoshop.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fdramatic.png?alt=media&token=0e642148-b422-44ca-a220-5dcca0daf96d",
+    "gradient": "linear-gradient(180deg,#FFF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 2
+  },
+  {
+    "title": "Batala Tailor",
+    "description": "This is a logo for a Tailor company, created in illustrator.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Flogo-(1).jpg?alt=media&token=efa4f2cf-5654-4ad0-8255-c3fc3acdaa02",
+    "gradient": "linear-gradient(180deg,#FFF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 3
+  },
+  {
+    "title": "Pocktor",
+    "description": "This is a logo for an Academy. This is created in illustrator.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fphono.png?alt=media&token=fcb22435-9289-4ae1-8cff-2b96eb7856e0",
+    "gradient": "linear-gradient(180deg,#BDD5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 2,
+    "subCategory": 3
+  },
+
+  {
+    "title": "Civil Tech and Social Impact Measurement",
+    "description": "In this scholarly and well-cited article, the writer has explored the ways of measuring the social impact of a civic tech platform. The writer has also used eye-catching images and diagrams.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fcivic.png?alt=media&token=bbff72b7-f974-4561-a2e0-da19ee996e6e",
+    "gradient": "linear-gradient(180deg,#BDD5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 3,
+    "subCategory": 1
+  },
+  {
+    "title": "Citizen Tech and Citizen Engagement",
+    "description": "In this blog, the writer has written about the Civic Tech Platform. After quoting the experts, the writer has analyzed their opinions and elaborated on how citizens engage with the Civic Tech Platform.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fsmart.png?alt=media&token=1d459290-c20f-4bff-b531-5ec7a757ad12",
+    "gradient": "linear-gradient(180deg,#BEF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 3,
+    "subCategory": 1
+  },
+
+  {
+    "title": "How Web 3. O, Web 4.0, and Web 5. O will change Your Life",
+    "description": "This blog tells about the evolution of the World Wide Web and elaborates on what the future will be like with Web 3. O, Web 4. O and Web 5. O.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2FHow-Web-3.0%2C-Web-4.0%2C-and-Web-5.jpg?alt=media&token=84c09ebb-6257-43ad-9af1-03a948de7e52",
+    "gradient": "linear-gradient(180deg,#BDD5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 3,
+    "subCategory": 2
+  },
+  {
+    "title": "10 Ways How Metaverse will Change the World",
+    "description": "This blog explores the top 10 ways how Metaverse will change our daily life, from e-commerce to classroom learning.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F10-Ways-How-Metaverse-Will-Change-the%C2%A0World.jpg?alt=media&token=bc2f0415-80ab-43f5-8caa-b895b4dbf9f8",
+    "gradient": "linear-gradient(180deg,#BEF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 3,
+    "subCategory": 2
+  },
+
+  {
+    "title": "Meta Montas",
+    "description": "This is a landing page of website called Meta Montas showing NFTs collection of monsters. This website made in React.js and has many interactive animations and sliders. It works on Android and iOS. Users can conveniently use the program on mobile, tablets, and desktops.",
+    "video": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fvideos%2FMonstas.mp4?alt=media&token=43aab86c-6b0a-492b-a13a-d2251808fcdc",
+    "gradient": "linear-gradient(180deg,#BDD5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 4,
+    "subCategory": 1
+  },
+  {
+    "title": "Attack on Titans",
+    "description": "This is a unique NFT landing page created in React.js. Its design and theme are matchless.",
+    "video": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fvideos%2FHack%20Attack.mp4?alt=media&token=994d9d97-f05b-49de-94be-ad328ba1fade",
+    "gradient": "linear-gradient(180deg,#BEF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 4,
+    "subCategory": 1
+  },
+
+  {
+    "title": "Bagholderz",
+    "description": "This is a full stack NFT website created in Html, CSS and JavaScript. We have integrated wallet connectivity and smart contract and Minting.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fbagholders.jpg?alt=media&token=de2a0a78-13c6-4e39-8db2-81d57bed6ea1",
+    "gradient": "linear-gradient(180deg,#BDD5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 4,
+    "subCategory": 2
+  },
+  {
+    "title": "Office Munchkin",
+    "description": "This is an NFT website made in ReactJs. Here users can connect wallet and buy tokens. We have created hovering animations in it.",
+    "image": "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Foffice-munchkins.jpg?alt=media&token=b4e40905-c0fb-4e02-a66d-c38c091e7a55",
+    "gradient": "linear-gradient(180deg,#BEF5A1,#121212)",
+    "url": "https://smashcode-theme.netlify.app/public/whitepaper/",
+    "category": 4,
+    "subCategory": 2
+  }
+]

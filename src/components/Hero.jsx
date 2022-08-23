@@ -40,11 +40,19 @@ const Hero = () => {
         </button>
       </div>
       <div className="w-full lg:w-1/3 pt-[4rem] flex items-center justify-center">
+        {images.map((image, index) => (
+          <img
+            src={image}
+            alt=""
+            className={"w-full hero-image hidden"}
+            onClick={nextImage}
+            key={images[currentImage]}
+          ></img>
+        ))}
         <img
           src={images[currentImage]}
           alt=""
           className="w-full hero-image"
-          onClick={nextImage}
           key={images[currentImage]}
         ></img>
       </div>
