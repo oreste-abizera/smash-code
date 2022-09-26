@@ -83,13 +83,13 @@ const AboutPage = () => {
           <div className="w-full lg:w-1/2">
             <Title title={"Our"} subtitle="Story"></Title>
             <p className="text-white py-[70px] px-[4px] text-[1.2rem] mb-[1rem]">
-              Smash Code is a Web Design &amp; Development Company based in
-              Faisalabad, Pakistan founded in 2019 Our team consists of skilled
-              Web Designers &amp; Developers, Graphic Designers, and Copy
-              Writes. We offer quality services of unique web designs &amp;
-              robust developments, professional business logo &amp; poster
-              design, and engaging content for web pages. We have worked with
-              great clients worldwide, ranging from startups to large firms.
+              Smash Code is a Web Design &amp; Development Company based in USA
+              founded in 2019 Our team consists of skilled Web Designers &amp;
+              Developers, Graphic Designers, and Copy Writes. We offer quality
+              services of unique web designs &amp; robust developments,
+              professional business logo &amp; poster design, and engaging
+              content for web pages. We have worked with great clients
+              worldwide, ranging from startups to large firms.
             </p>
           </div>
           <div className="w-full lg:w-1/2 flex items-end justify-center">

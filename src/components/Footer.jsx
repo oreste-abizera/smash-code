@@ -41,7 +41,7 @@ const Footer = (props) => {
             </div>
             <div className="">
               <p className="text-white text-xl">Location</p>
-              <p className="text-[#757575] text-lg">Pakistan</p>
+              <p className="text-[#757575] text-lg">USA</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ const Footer = (props) => {
             </div>
             <div className="">
               <p className="text-white text-xl">Contact (whatsapp)</p>
-              <p className="text-[#757575] text-lg">+92 3071991737</p>
+              <p className="text-[#757575] text-lg">+1 (321) 243-8555</p>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ const Footer = (props) => {
             </div>
             <div className="">
               <p className="text-white text-xl">Email</p>
-              <p className="text-[#757575] text-lg">smashcode.dev@gmail.com</p>
+              <p className="text-[#757575] text-lg">pacd2021@gmail.com</p>
             </div>
           </div>
         </div>
@@ -73,10 +73,9 @@ const Footer = (props) => {
           <div className="w-full lg:w-1/3">
             <img src={logo} alt="" className="max-w-[120px]"></img>
             <p className="text-[#7e7e7e] m-4">
-              Smash Code is a Web Design &amp; Development Company based in
-              Pakistan, founded in 2019. We are a team of skilled Web Designers
-              &amp; Developers, Graphic Designers, and Content &amp; Copy
-              Writers.
+              Smash Code is a Web Design &amp; Development Company based in USA,
+              founded in 2019. We are a team of skilled Web Designers &amp;
+              Developers, Graphic Designers, and Content &amp; Copy Writers.
             </p>
           </div>
 
