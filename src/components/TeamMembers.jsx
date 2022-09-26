@@ -18,14 +18,14 @@ const TeamMembers = (props) => {
     },
     {
       name: "Oreste Abizera",
-      position: "Senior Software Engineer",
+      position: "Full stack Developer",
       image:
         "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664200797/T5E22CTMW-U03V01LLPT4-3415dd4eeb48-512_i8bjtn.jpg",
       hideAfter: true,
     },
     {
       name: "Valens Niyonsenga",
-      position: "Software Developer",
+      position: "Frontend Developer",
       image:
         "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664201177/c97d82cf-ba90-4f9d-9dd6-6db045734f63_mthzec.jpg",
       showBefore: true,
@@ -59,7 +59,7 @@ const TeamMembers = (props) => {
     },
     {
       name: "Oreste Abizera",
-      position: "Senior Software Engineer",
+      position: "Full stack Developer",
       image:
         "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664201107/T043BG5SCR5-U043KF5598E-5aa2a6f547b8-512_sl65kg.png",
       hideAfter: true,
