@@ -33,13 +33,13 @@ const HomeProjects = () => {
         "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",
     },
     {
-      title:
-        "My Journey from Zero-Knowledge of Computers to Owning a Software House",
+      title: "Background Change",
       description:
-        "This blog focuses on the success story of Muhammad Ismail. The writer has explored the journey of a young web developer and the owner of a software company who was once struggling to survive and ready to quit.",
-      image: "https://smashcode.dev/static/media/contentWriting.310b81db.jpg",
-      gradient: "linear-gradient(180deg,#7E478B,#121212)",
-      url: "https://medium.com/illumination/ego-your-biggest-enemy-that-holds-you-back-from-becoming-successful-b98c87222530",
+        "In this project, we have changed the whole background of the picture by using a beautiful structure. We created the image in Photoshop.",
+      image:
+        "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2Fbackchange.png?alt=media&token=46359ac6-b5f2-4a4b-bc37-1d8b9be9f5ab",
+      gradient: "linear-gradient(180deg,#FFA5A1,#121212)",
+      url: "https://smashcode-theme.netlify.app/public/whitepaper/",
     },
   ];
   return (
