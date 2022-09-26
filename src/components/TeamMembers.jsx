@@ -44,10 +44,10 @@ const TeamMembers = (props) => {
       hideAfter: true,
     },
     {
-      name: "Valens Niyonsenga",
-      position: "Software Developer",
+      name: "Aslam Rwabutaguza",
+      position: "Backend Developer",
       image:
-        "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664201177/c97d82cf-ba90-4f9d-9dd6-6db045734f63_mthzec.jpg",
+        "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664223897/de261456-88ff-4c19-85b3-24608c9c5ef7_bkmjge.jpg",
 
       showBefore: true,
     },
