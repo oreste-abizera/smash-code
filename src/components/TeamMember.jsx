@@ -40,7 +40,7 @@ const TeamMember = ({
         <img
           src={image}
           alt={name}
-          className="w-full h-full rounded-full"
+          className="w-full h-full rounded-full object-cover"
         ></img>
       </div>
     </div>
