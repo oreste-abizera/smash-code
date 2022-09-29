@@ -7,8 +7,18 @@ import ContactPage from "./pages/contact";
 import HomePage from "./pages/home";
 import ProjectsPage from "./pages/projects";
 import ServicesPage from "./pages/services";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo({
+      left: 0,
+      top: 0,
+      behavior: "smooth",
+    });
+  }, [location]);
   return (
     <>
       <Routes>
