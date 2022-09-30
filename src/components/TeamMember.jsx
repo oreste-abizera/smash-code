@@ -11,7 +11,7 @@ const TeamMember = ({
   return (
     <div
       className={
-        "team-member w-[200px] h-[200px] rounded-full border-[3px] border-[#1aaca2] relative flex items-center justify-center my-0 mx-auto mt-[3rem] after:-right-[104%] after:absolute after:content-[''] after:top-[50%] md:after:w-[104%] after:bg-[#17cae2] before:absolute before:content-[''] before:-top-[50px] before:h-[50px] before:left-[50%] " +
+        "team-member w-[200px] h-[200px] rounded-full border-[3px] border-[#008B9A] relative flex items-center justify-center my-0 mx-auto mt-[3rem] after:-right-[104%] after:absolute after:content-[''] after:top-[50%] md:after:w-[104%] after:bg-[#17cae2] before:absolute before:content-[''] before:-top-[50px] before:h-[50px] before:left-[50%] " +
         (hideAfter ? " " : "after:h-[2.5px] ") +
         (showBefore
           ? "before:w-[4px] before:bg-[#17cae2]"
@@ -22,7 +22,7 @@ const TeamMember = ({
         <h2 className="text-[1.4rem] pt-[20px] font-medium mb-[0.5rem]">
           {name}
         </h2>
-        <p className="font-semibold text-[0.7rem] lg:text-[0.9rem] text-[#1aaca2] max-w-[90%]">
+        <p className="font-semibold text-[0.7rem] lg:text-[0.9rem] text-[#008B9A] max-w-[90%]">
           {position}
         </p>
       </div>
@@ -34,7 +34,7 @@ const TeamMember = ({
         style={{
           transition: "all 0.3s linear",
           zIndex: 111,
-          backgroundColor: "rgb(32 32 32)",
+          backgroundColor: "#363947",
         }}
       >
         <img

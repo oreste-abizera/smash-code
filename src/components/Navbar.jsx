@@ -30,13 +30,13 @@ const Navbar = ({ active = 1 }) => {
             className="absolute top-0 left-0 w-full h-full"
             style={{
               filter: "blur(4px)",
-              background: "rgba(0,0,0,.404)",
+              background: "#363947",
             }}
             onClick={toggleNavShown}
           ></div>
 
           <nav
-            className="absolute top-0 left-0 bg-[#141414] overflow-x-hidden overflow-y-auto border-r-[2px] border-r-[#1aaca2] flex flex-col h-full w-[70%]"
+            className="absolute top-0 left-0 bg-[#363947] overflow-x-hidden overflow-y-auto border-r-[2px] border-r-[#008B9A] flex flex-col h-full w-[70%]"
             style={{
               transition: "left .4s cubic-bezier(.645,.045,.355,1)",
             }}
@@ -65,7 +65,7 @@ const Navbar = ({ active = 1 }) => {
                   >
                     <p
                       className={`${
-                        link.active ? "text-[#1aaca2]" : "text-white"
+                        link.active ? "text-[#008B9A]" : "text-white"
                       } text-[1rem] py-[15px] pr-[10px] pl-[16px] text-center uppercase cursor-pointer`}
                       onClick={() => {
                         navigate(link.path);
@@ -85,7 +85,7 @@ const Navbar = ({ active = 1 }) => {
         className="fixed top-0 left-0 p-2 lg:p-4 w-full"
         style={{ zIndex: 99999 }}
       >
-        <div className="w-full flex justify-between items-center bg-[#141414] border-[2px] border-[#1aaca2] rounded-[14px] p-2 px-4 lg:px-10">
+        <div className="w-full flex justify-between items-center bg-[#363947] border-[2px] border-[#008B9A] rounded-[14px] p-2 px-4 lg:px-10">
           <img
             src={logo}
             alt=""
@@ -101,15 +101,15 @@ const Navbar = ({ active = 1 }) => {
                   <div className="parent">
                     <p
                       className={`${
-                        link.active ? "text-[#1aaca2]" : "text-white"
-                      } text-xl hover:text-[#1aaca2] uppercase`}
+                        link.active ? "text-[#008B9A]" : "text-white"
+                      } text-xl hover:text-[#008B9A] uppercase`}
                     >
                       {link.title}
                     </p>
                     <div
                       className={`${
                         link.active ? "" : "hidden-child"
-                      } bg-[#1aaca2] h-[1px] w-[20px] mt-[10px] mx-auto`}
+                      } bg-[#008B9A] h-[1px] w-[20px] mt-[10px] mx-auto`}
                     ></div>
                   </div>
                 </Link>
@@ -125,14 +125,14 @@ const Navbar = ({ active = 1 }) => {
             <div className="lg:hidden">
               {navShown ? (
                 <div
-                  className="border-[2px] border-[#1aaca2] rounded-full p-2 cursor-pointer"
+                  className="border-[2px] border-[#008B9A] rounded-full p-2 cursor-pointer"
                   onClick={toggleNavShown}
                 >
-                  <FaTimes className="text-[#1aaca2]" size={22} />
+                  <FaTimes className="text-[#008B9A]" size={22} />
                 </div>
               ) : (
                 <FaBars
-                  className="text-[#1aaca2]"
+                  className="text-[#008B9A]"
                   size={30}
                   onClick={toggleNavShown}
                 />

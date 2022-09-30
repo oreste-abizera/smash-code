@@ -184,7 +184,7 @@ const ServicesPage = () => {
   return (
     <>
       <Navbar active={3} />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
+      <main className="bg-[#363947] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
         <Title title="Services we" subtitle="Offered" />
         <p className="text-white text-[1.2rem] mb-[1rem] max-w-[622px] py-[1rem]">
           Responsive Websites &amp; Web Apps, and Full Stack Web Apps

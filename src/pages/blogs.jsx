@@ -16,7 +16,7 @@ const BlogsPage = () => {
   return (
     <>
       <Navbar active={4} />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
+      <main className="bg-[#363947] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
         <FeaturedBlogs />
         <h1 className="mt-[4rem] text-white text-[1.75rem] tracking-[0.00735em] leading-[1.235] mb-[1rem]">
           All Categories

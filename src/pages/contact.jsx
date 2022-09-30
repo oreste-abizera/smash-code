@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <>
       <Navbar active={6} />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[12rem] pb-[8rem] text-white">
+      <main className="bg-[#363947] w-full min-h-screen px-4 lg:px-[6rem] py-[12rem] pb-[8rem] text-white">
         <h1
           className="text-white text-center mb-[1.5rem] font-medium leading-[1.2]"
           style={{ fontSize: "calc(1.375rem + 1.5vw)" }}
@@ -30,39 +30,39 @@ const ContactPage = () => {
               <div
                 className="bg-[#f2f6f8] h-[4rem] my-[15px] py-[0.3rem] focus:h-[4.5rem] hover:h-[4.5rem] px-[2.5rem] rounded-[2rem] border-none flex items-center gap-[1rem]"
                 style={{
-                  boxShadow: "0 0 0 1.5pt #1aaca2",
+                  boxShadow: "0 0 0 1.5pt #008B9A",
                   transition: "all 1s",
                 }}
               >
                 <img src={namesvg} className="h-1/2"></img>
                 <input
-                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-[#838788] placeholder:text-[1.3rem] placeholder:text-[#838788] font-semibold placeholder:font-semibold"
+                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-gray-500 placeholder:text-[1.3rem] placeholder:text-gray-500 font-semibold placeholder:font-semibold"
                   placeholder="Name"
                 ></input>
               </div>
               <div
                 className="bg-[#f2f6f8] h-[4rem] my-[15px] py-[0.3rem] focus:h-[4.5rem] hover:h-[4.5rem] px-[2.5rem] rounded-[2rem] border-none flex items-center gap-[1rem]"
                 style={{
-                  boxShadow: "0 0 0 1.5pt #1aaca2",
+                  boxShadow: "0 0 0 1.5pt #008B9A",
                   transition: "all 1s",
                 }}
               >
                 <img src={emailsvg} className="h-1/2"></img>
                 <input
                   type={"email"}
-                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-[#838788] placeholder:text-[1.3rem] placeholder:text-[#838788] font-semibold placeholder:font-semibold"
+                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-gray-500 placeholder:text-[1.3rem] placeholder:text-gray-500 font-semibold placeholder:font-semibold"
                   placeholder="Email"
                 ></input>
               </div>
               <div
                 className="bg-[#f2f6f8] h-[14rem] my-[15px] py-[0.3rem] focus:h-[14.5rem] hover:h-[14.5rem] px-[2.5rem] rounded-[2rem] border-none flex items-center gap-[1rem]"
                 style={{
-                  boxShadow: "0 0 0 1.5pt #1aaca2",
+                  boxShadow: "0 0 0 1.5pt #008B9A",
                   transition: "all 1s",
                 }}
               >
                 <textarea
-                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-[#838788] placeholder:text-[1.3rem] placeholder:text-[#838788] font-semibold placeholder:font-semibold resize-none"
+                  className="flex-1 outline-none bg-transparent h-full text-[1.3rem] text-gray-500 placeholder:text-[1.3rem] placeholder:text-gray-500 font-semibold placeholder:font-semibold resize-none"
                   placeholder="Message"
                 ></textarea>
               </div>
@@ -74,7 +74,7 @@ const ContactPage = () => {
                   backgroundSize: "300% 100%",
                   transition: "all 0.3s",
                   backgroundImage:
-                    "linear-gradient(131deg,#40e0d6,#1aaca2,#40e0d6,#136e68)",
+                    "linear-gradient(131deg,#40e0d6,#008B9A,#40e0d6,#136e68)",
                 }}
               >
                 Send a message
@@ -83,7 +83,7 @@ const ContactPage = () => {
 
             <div className="mt-[1.5rem]">
               <p className="text-[1.2rem] mb-[1rem]">
-                <span className="text-[#1aaca2]">Note:</span> If you find any
+                <span className="text-[#008B9A]">Note:</span> If you find any
                 issue with our website, let us know about your valuable feedback
               </p>
             </div>

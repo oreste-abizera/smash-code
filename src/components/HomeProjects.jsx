@@ -27,7 +27,7 @@ const HomeProjects = () => {
       title: "Pocktor",
       description:
         "This is a logo for a Software company, created in illustrator.",
-      gradient: "linear-gradient(180deg,#1aaca2,#121212)",
+      gradient: "linear-gradient(180deg,#008B9A,#121212)",
       url: "https://smashcode.dev/projects",
       image:
         "https://firebasestorage.googleapis.com/v0/b/smash-code.appspot.com/o/projects-images%2Fimages%2F15-min.jpg?alt=media&token=5c6f8575-edf0-4c43-bc6e-874a10997c6a",

@@ -37,7 +37,7 @@ const ProjectsPage = () => {
   return (
     <>
       <Navbar active={2} />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
+      <main className="bg-[#363947] w-full min-h-screen px-4 lg:px-[6rem] py-[10rem]">
         <Title title="Explore our done" subtitle="Projects" />
         <p className="text-white text-[1.2rem] mb-[1rem] max-w-[622px] py-[1rem]">
           Here are some samples of our done projects delivered to our great
@@ -57,8 +57,8 @@ const ProjectsPage = () => {
               onClick={() => setActiveCategory(index + 1)}
               className={
                 activeCategory === index + 1
-                  ? "rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white bg-[#1aaca2]"
-                  : "bg-transparent border-[1px] border-[#1aaca2] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#1aaca2] transition-all"
+                  ? "rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white bg-[#008B9A]"
+                  : "bg-transparent border-[1px] border-[#008B9A] rounded-[50px] py-[12px] px-[16px] my-[5px] mx-[4px] text-white hover:bg-[#008B9A] transition-all"
               }
             >
               {category}
@@ -73,8 +73,8 @@ const ProjectsPage = () => {
               className={
                 (index === 0 ? "rounded-l-[8px] " : "") +
                 (activeSubCategory === index + 1
-                  ? "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#1aaca2]"
-                  : "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+                  ? "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none text-white bg-[#008B9A]"
+                  : "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none bg-white text-[#008B9A] hover:text-white hover:bg-[#008B9A]")
               }
               key={index}
             >
@@ -84,7 +84,7 @@ const ProjectsPage = () => {
         </div>
 
         <div className="w-full lg:hidden relative text-white pt-[2rem]">
-          <div className="absolute h-full w-[3px] bg-[#1aaca2] left-0 right-0 mx-auto"></div>
+          <div className="absolute h-full w-[3px] bg-[#008B9A] left-0 right-0 mx-auto"></div>
           {subCategories.map((subCategory, index) =>
             index % 2 === 0 ? (
               <div
@@ -95,25 +95,25 @@ const ProjectsPage = () => {
                   className={
                     "py-[5px] px-[8px] my-[8px] mx-[1px] outline- rounded-l-[8px] " +
                     (activeSubCategory === index + 1
-                      ? "text-white bg-[#1aaca2]"
-                      : "bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+                      ? "text-white bg-[#008B9A]"
+                      : "bg-white text-[#008B9A] hover:text-white hover:bg-[#008B9A]")
                   }
                   onClick={() => setActiveSubCategory(index + 1)}
                 >
                   {subCategory}
                 </button>
-                <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+                <div className="h-[12px] w-[12px] bg-[#008B9A] rounded-full"></div>
               </div>
             ) : (
               <div className="flex justify-end">
                 <div className="w-[51%] flex items-center justify-between py-[0.2rem]">
-                  <div className="h-[12px] w-[12px] bg-[#1aaca2] rounded-full"></div>
+                  <div className="h-[12px] w-[12px] bg-[#008B9A] rounded-full"></div>
                   <button
                     className={
                       "py-[5px] px-[8px] my-[8px] mx-[1px] outline-none rounded-r-[8px] " +
                       (activeSubCategory === index + 1
-                        ? "text-white bg-[#1aaca2]"
-                        : "bg-white text-[#1aaca2] hover:text-white hover:bg-[#1aaca2]")
+                        ? "text-white bg-[#008B9A]"
+                        : "bg-white text-[#008B9A] hover:text-white hover:bg-[#008B9A]")
                     }
                     onClick={() => setActiveSubCategory(index + 1)}
                   >

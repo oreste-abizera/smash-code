@@ -52,10 +52,10 @@ const TeamMembers = (props) => {
       showBefore: true,
     },
     {
-      name: "Ntwali Osee",
+      name: "Byishimo Eric",
       position: "Software Engineer",
       image:
-        "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664200237/467033c5-d094-40f0-993e-3d538d3f13e8_un1pce.jpg",
+        "https://res.cloudinary.com/dkndyyvmn/image/upload/v1664383409/d6842921-7e48-4d66-b5b6-b0a93d2b8573_nsbn8u.jpg",
     },
     {
       name: "Oreste Abizera",

@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <main className="bg-[rgb(31,31,31)] w-full min-h-screen px-4 lg:px-[6rem] py-10">
+      <main className="bg-[#363947] w-full min-h-screen px-4 lg:px-[6rem] py-10">
         <Hero />
         <HomeProjects />
         <HomeServices />

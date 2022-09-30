@@ -33,37 +33,37 @@ const Footer = (props) => {
   ];
   return (
     <footer className="w-full">
-      <div className="w-full px-4 lg:px-8 bg-[#151414] py-10">
-        <div className="w-full flex flex-col lg:flex-row lg:justify-between gap-y-[2rem] border-b-[1px] border-b-[#373636] pb-[3rem]">
+      <div className="w-full px-4 lg:px-8 bg-[#363947] py-10">
+        <div className="w-full flex flex-col lg:flex-row lg:justify-between gap-y-[2rem] border-b-[1px] border-b-gray-500 pb-[3rem]">
           <div className="flex gap-4">
             <div>
-              <FaMapMarkerAlt size={60} color="1aaca2" />
+              <FaMapMarkerAlt size={55} color="#008B9A" />
             </div>
             <div className="">
               <p className="text-white text-xl">Location</p>
-              <p className="text-[#757575] text-lg">USA</p>
+              <p className="text-gray-400 text-lg">USA</p>
             </div>
           </div>
 
           {/* whatsapp */}
           <div className="flex gap-4">
             <div>
-              <BsPhone size={60} color="1aaca2" />
+              <BsPhone size={55} color="#008B9A" />
             </div>
             <div className="">
               <p className="text-white text-xl">Contact (whatsapp)</p>
-              <p className="text-[#757575] text-lg">+1 (321) 243-8555</p>
+              <p className="text-gray-400 text-lg">+1 (321) 243-8555</p>
             </div>
           </div>
 
           {/* email */}
           <div className="flex gap-4">
             <div>
-              <BsEnvelope size={60} color="1aaca2" />
+              <BsEnvelope size={55} color="#008B9A" />
             </div>
             <div className="">
               <p className="text-white text-xl">Email</p>
-              <p className="text-[#757575] text-lg">pacd2021@gmail.com</p>
+              <p className="text-gray-400 text-lg">pacd2021@gmail.com</p>
             </div>
           </div>
         </div>
@@ -71,22 +71,22 @@ const Footer = (props) => {
         {/* next section */}
         <div className="flex flex-col lg:flex-row lg:justify-between py-[3rem] gap-y-[2rem]">
           <div className="w-full lg:w-1/3">
-            <img src={logo} alt="" className="max-w-[120px]"></img>
-            <p className="text-[#7e7e7e] m-4">
-              Smash Code is a Web Design &amp; Development Company based in USA,
-              founded in 2019. We are a team of skilled Web Designers &amp;
+            <img src={logo} alt="" className="ml-4 max-w-[120px]"></img>
+            <p className="text-gray-400 m-4">
+              Fuller Teams is a Web Design &amp; Development Company based in
+              USA, founded in 2022. We are a team of skilled Web Designers &amp;
               Developers, Graphic Designers, and Content &amp; Copy Writers.
             </p>
           </div>
 
           <div className="w-full lg:w-1/3 px-4">
             <h1 className="text-white text-[20px]">Quick - Links</h1>
-            <div className="mb-[40px] mt-[15px] h-[2px] w-[50px] bg-[#1aaca2]"></div>
+            <div className="mb-[40px] mt-[15px] h-[2px] w-[50px] bg-[#008B9A]"></div>
             <div className="flex flex-wrap gap-y-[1rem]">
               {links.map((link, index) => {
                 return (
                   <div
-                    className="w-1/2 flex items-center gap-[0.5rem] cursor-pointer text-[#878787] hover:text-[#1aaca2] text-[1em]"
+                    className="w-1/2 flex items-center gap-[0.5rem] cursor-pointer text-gray-400 hover:text-[#008B9A] text-[1em]"
                     key={index}
                     onClick={() => navigate(link.path)}
                   >
@@ -99,7 +99,7 @@ const Footer = (props) => {
           </div>
           <div className="w-full lg:w-1/3 px-4">
             <h1 className="text-white text-[20px]">Social - Links</h1>
-            <div className="mb-[40px] mt-[15px] h-[2px] w-[50px] bg-[#1aaca2]"></div>
+            <div className="mb-[40px] mt-[15px] h-[2px] w-[50px] bg-[#008B9A]"></div>
             <div className="flex flex-wrap gap-[2rem]">
               <FaFacebookF className="bg-[#3b5998] text-white w-[44px] h-[44px] p-[7px] rounded-full text-[15px] cursor-pointer" />
               <FaTwitter className="bg-[#55acee] text-white w-[44px] h-[44px] p-[7px] rounded-full text-[15px] cursor-pointer" />
@@ -114,10 +114,10 @@ const Footer = (props) => {
         </div>
       </div>
 
-      <div className="w-full bg-[#202020] flex items-center justify-center py-[24px]">
-        <p className="text-[#6c757d]">
+      <div className="w-full bg-[rgb(54,57,62)] flex items-center justify-center py-[24px]">
+        <p className="text-gray-300">
           Copyright &copy; 2022, All Right Reserved{" "}
-          <span className="text-[#1aaca2] cursor-pointer">Smash Code</span>
+          <span className="text-[#008B9A] cursor-pointer">Fuller Teams</span>
         </p>
       </div>
     </footer>

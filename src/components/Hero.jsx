@@ -30,7 +30,7 @@ const Hero = () => {
           <p>We Can Develop It</p>
           <p>For You</p>
         </div>
-        <div className="h-[0.7px] w-[30%] bg-[#1aaca2] my-[15px]"></div>
+        <div className="h-[0.7px] w-[30%] bg-[#008B9A] my-[15px]"></div>
         <p className="text-[1.2rem] text-white my-[30px] max-w-[90%]">
           We create future-ready websites &amp; web apps via innovative digital
           solutions so that you can focus on your core business.

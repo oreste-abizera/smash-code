@@ -15,7 +15,7 @@ body {
 }
 
 .cta-icons-top > * {
-  color: #1aaca2;
+  color: #008b9a;
   font-size: 2rem;
 }
 
@@ -41,8 +41,8 @@ body {
 }
 
 .primary-btn:hover {
-  color: #1aaca2;
-  border: 1px solid #1aaca2;
+  color: #008b9a;
+  border: 1px solid #008b9a;
 }
 
 .primary-btn::before {
@@ -67,7 +67,7 @@ body {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: #1aaca2;
+  background-color: #008b9a;
 }
 
 .MuiSvgIcon-fontSizeLarge {
@@ -182,7 +182,7 @@ body {
   border-radius: 50px;
   min-width: 108px;
   min-height: 38px;
-  border: 6px solid #00ffcb;
+  border: 6px solid #008b9a;
   box-shadow: 0 0 15px rgb(0 255 204 / 55%);
   position: absolute;
   top: 50%;
@@ -199,7 +199,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  border: 6px solid #00ffcb;
+  border: 6px solid #008b9a;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -232,7 +232,7 @@ body {
   }
   100% {
     transform: translate(-50%, -50%) scale(4);
-    border: 1px solid #00ffcb;
+    border: 1px solid #008b9a;
   }
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .team-member {
-  background-color: rgb(32 32 32);
+  background-color: #363947;
   z-index: 20;
 }
 

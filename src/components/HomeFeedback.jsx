@@ -5,7 +5,7 @@ const HomeFeedback = () => {
   return (
     <div className="mb-[8rem] w-full">
       <Title title="Clients" subtitle="Feedback" />
-      <div className="mt-[4rem] w-full flex flex-col lg:flex-row border-r-[2px] border-dashed border-r-[#1aaca2]">
+      <div className="mt-[4rem] w-full flex flex-col lg:flex-row border-r-[2px] border-dashed border-r-[#008B9A]">
         <div className="w-full lg:w-[20%] pt-[4rem]">
           <div className="w-full relative min-h-[45vh] flying-avatars">
             {/* first  */}
@@ -89,7 +89,7 @@ const HomeFeedback = () => {
           </div>
         </div>
         <div className="w-full lg:w-[60%]">
-          <p className="text-[1.7rem] text-[#1aaca2] leading-[5rem] flex justify-start mb-[1rem]">
+          <p className="text-[1.7rem] text-[#008B9A] leading-[5rem] flex justify-start mb-[1rem]">
             <span className="flex w-[50px] h-[50px] bg-[#f3f3f3] border-[2px] border-[#a0a0a0] rounded-full items-center justify-center overflow-hidden mr-[15px]">
               <img
                 src={
@@ -109,13 +109,10 @@ const HomeFeedback = () => {
             </p>
             <footer className="blockquote-footer mt-2 text-[#6c757d] text-[0.875em]">
               <a
-                className="a-simple text-pri text-[#1aaca2] cursor-pointer"
+                className="a-simple text-pri text-[#008B9A] cursor-pointer"
                 rel="noreferrer"
               >
-                Posted on &nbsp;{" "}
-                <span title="Source Title">
-                  Fiverr &nbsp; ---&gt; &nbsp; view
-                </span>
+                Posted on &nbsp; <span title="Source Title">Fiverr</span>
               </a>
             </footer>
           </blockquote>
@@ -146,8 +143,8 @@ const HomeFeedback = () => {
             >
               <img
                 className="w-full object-cover text-center"
-                src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1664200797/T5E22CTMW-U03V01LLPT4-3415dd4eeb48-512_i8bjtn.jpg"
-                alt="Oreste ABIZERA"
+                src="https://res.cloudinary.com/dkndyyvmn/image/upload/v1664383375/d9a6939d-e89c-4b5c-a3b5-5ff64e48ea91_kicwe2.jpg"
+                alt="Byishimo Eric"
               ></img>
             </div>
             {/* third */}

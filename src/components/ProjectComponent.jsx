@@ -30,7 +30,7 @@ const ProjectComponent = ({
             <img
               loading="lazy"
               decoding="async"
-              alt="smash code"
+              alt="Fuller Teams"
               src={image}
               className="rounded-full w-full"
               style={{
@@ -45,7 +45,7 @@ const ProjectComponent = ({
       </div>
 
       <div className="my-[5px] mx-auto">
-        <a className="font-bold text-[1.2rem] rounded-[50px] flex items-center justify-center text-center py-[6px] px-[16px] text-[#1aaca2] cursor-pointer">
+        <a className="font-bold text-[1.2rem] rounded-[50px] flex items-center justify-center text-center py-[6px] px-[16px] text-[#008B9A] cursor-pointer">
           Visit Site
         </a>
       </div>

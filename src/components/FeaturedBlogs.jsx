@@ -21,7 +21,7 @@ const FeaturedBlogs = () => {
               can teach you the art of living
             </p>
 
-            <button className="flex items-center gap-[0.5rem] absolute -top-[2.5rem] right-0 bg-[#1aaca2] text-white rounded-l-[8px] py-[4px] px-[8px] text-lg">
+            <button className="flex items-center gap-[0.5rem] absolute -top-[2.5rem] right-0 bg-[#008B9A] text-white rounded-l-[8px] py-[4px] px-[8px] text-lg">
               <FaEye />
               <p>17 views</p>
             </button>

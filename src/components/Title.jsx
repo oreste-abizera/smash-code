@@ -6,7 +6,7 @@ const Title = ({ title = "", subtitle = "" }) => {
       <h1 className="text-[1.5rem]">{title}</h1>
       <h1 className="text-[4rem] mb-[20px]" style={{ width: "max-content" }}>
         {subtitle}
-        <div className="mt-[15px] h-[0.7px] w-[85%] bg-[#1aaca2]"></div>
+        <div className="mt-[15px] h-[0.7px] w-[85%] bg-[#008B9A]"></div>
       </h1>
     </div>
   );
